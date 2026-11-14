@@ -6,7 +6,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const [number, setNumber] = useState(() => {getrandomint(1, 3)})
+  
   return (
     <>
       <section id="center">
